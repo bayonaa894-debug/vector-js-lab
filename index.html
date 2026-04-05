@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vector JS Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Vector-JS Lab</h1>
+
+<div class="inputs">
+    <div>
+        <h3>Vector A</h3>
+        <input id="ax" placeholder="Ax">
+        <input id="ay" placeholder="Ay">
+    </div>
+
+    <div>
+        <h3>Vector B</h3>
+        <input id="bx" placeholder="Bx">
+        <input id="by" placeholder="By">
+    </div>
+</div>
+
+<button onclick="dibujar()">Dibujar</button>
+
+<div class="slider">
+    <label>Escalar A:</label>
+    <input type="range" id="escala" min="1" max="5" value="1" oninput="dibujar()">
+</div>
+
+<canvas id="canvas" width="500" height="500"></canvas>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
