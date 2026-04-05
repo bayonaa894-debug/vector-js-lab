@@ -17,4 +17,4 @@ Aplicación web para trabajar con vectores en tiempo real usando HTML, CSS y Jav
 - Canvas
 
 ## Autor
-Estudiante uniespinal
+Estudiantes Pedro Bayona Dylan Cardoso uniespinal
